@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CssSelectors</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-transform: capitalize;
+        }
+
+        h1 {
+            color: teal;
+            text-align: center;
+        }
+
+        h2 {
+            color: gray;
+            text-align: center;
+            margin: 50px 0;
+        }
+
+        .box {
+            width: 350px;
+            height: 200px;
+            background-color: lavender;
+            border: 5px solid maroon;
+        }
+
+        #special {
+            width: 350px;
+            height: 200px;
+            background-color: sandybrown;
+            border: 5px solid maroon;
+        }
+
+        .boxs[class*="box"] {
+            width: 150px;
+            height: 100px;
+            color: blue;
+            background-color: aliceblue;
+        }
+
+        .descendant p {
+            letter-spacing: 5px;
+            color: brown;
+        }
+
+        .child>p {
+            letter-spacing: 8px;
+            color: rgb(104, 165, 42);
+        }
+
+        .generalsibling~p {
+            color: aqua;
+            font-size: 22px;
+        }
+
+        .generalsibling+p {
+            color: chocolate;
+            letter-spacing: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Css Selectors</h1>
+    <h2>Basic Selectors</h2>
+    <div class="box"> Class Selector</div>
+    <div id="special">Id Selector</div>
+    <div class="boxs">
+        <p class="box-1">Attribute Selector</p>
+        <p class="box-2">Attribute Selector</p>
+        <p class="box-3">Attribute Selector</p>
+        <p class="box-4">Attribute Selector</p>
+    </div>
+    <h2>Combinator Selector</h2>
+    <div class="descendant">
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+    <div class="child">
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+    <div class="generalsibling">
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+
+
+</body>
+
+</html>
