@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.group-1 {
+    background: url(../11Octpsd/img/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\).png)no-repeat center center/cover;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #21243d;
+    padding: 8px;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav ul li {
+    list-style: none;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 0 18px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav i {
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.main-text {
+    margin: 90px 90px 0;
+}
+
+.main-text h1 {
+    font-size: 100px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.main-text p {
+    margin-top: 50px;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.main-text button {
+    border-radius: 23px;
+    background-color: #21243d;
+    padding: 12px 22px;
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid blue;
+    margin: 50px 0 100px;
+}
+
+.group-2 {
+    background: url(../11Octpsd/img/Shape.png)no-repeat center center/cover;
+}
+
+.group-2 h2 {
+    font-size: 64px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 12px;
+}
+
+.pp {
+    color: white;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.circle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 65px;
+}
+
+.c-1 {
+    width: 246px;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.c-1 h4 {
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.c-1 p {
+    font-size: 15px;
+    margin: 12px 0px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+}
+
+.group-3 {
+    background: url(../11Octpsd/img/Shape2.png)no-repeat center center/cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.group-3 .main-text {
+    margin: 20px 0 0;
+    width: 450px;
+}
+
+.group-3 .main-text p {
+    font-size: 25px;
+    color: #21243d;
+    font-weight: 400;
+}
+
+.group-3 .main-text h2 {
+    font-size: 75px;
+    color: #21243d;
+    font-weight: 700;
+}
+
+.group-3 .main-text button {
+    border: none;
+    padding: 12px 55px;
+}
+
+.group-4 {
+    background: url(../11Octpsd/img/Shape3.png)no-repeat center center/cover;
+}
+
+.group-4 h2 {
+    font-size: 62px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px;
+}
+
+.group-4 p {
+    text-align: center;
+    color: white;
+}
+
+.round-1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid white;
+    padding-top: 25px;
+}
+
+.round-1 p {
+    font-size: 28px;
+}
+
+.round-1 h2 {
+    padding: 0px;
+}
+
+.group-4 .circle {
+    padding-bottom: 100px;
+}
+
+.group-6 {
+    background: url(../11Octpsd/img/g-5.png)no-repeat center center/cover;
+    text-align: center;
+    color: white;
+    padding: 100px;
+}
+
+.group-6 p {
+    font-size: 28px;
+    padding: 25px 100px;
+    font-weight: 400;
+}
+
+.group-6 h2 {
+    font-size: 40px;
+}
+
+.group-7 {
+    background: url(../11Octpsd/img/Shape2.png)no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px;
+}
+
+.group-7 h2 {
+    font-size: 75px;
+    color: #21243d;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.group-7 p {
+    font-size: 30px;
+    color: #21243d;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.group-7 input {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    width: 550px;
+    height: 38px;
+    padding: 12px;
+
+}
