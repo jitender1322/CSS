@@ -59,15 +59,56 @@
 .main-text button {
     border-radius: 23px;
     background-color: #21243d;
-    padding: 12px 22px;
+    padding: 15px 50px;
     color: white;
     text-transform: uppercase;
-    border: 2px solid blue;
+    border: none;
     margin: 50px 0 100px;
 }
 
 .group-2 {
     background: url(../11Octpsd/img/Shape.png)no-repeat center center/cover;
+    position: relative;
+    overflow: hidden;
+}
+
+img[class*="clip"] {
+    position: absolute;
+    width: 150px;
+}
+
+
+.clip-1 {
+    bottom: 50px;
+    right: -10px;
+    width: 90px !important;
+}
+
+.clip-2 {
+    top: -15px;
+    left: 115px;
+}
+
+.clip-3 {
+    top: -27px;
+    right: -30px;
+}
+
+.clip-4 {
+    top: 150px;
+    left: 40px;
+    width: 90px !important;
+}
+
+.clip-5 {
+    top: 50%;
+    right: -60px;
+    transform: rotate(90deg);
+}
+
+.clip-6 {
+    bottom: 50px;
+    left: -50px;
 }
 
 .group-2 h2 {
@@ -90,10 +131,14 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 65px;
+    padding: 0 80px;
+
 }
 
 .c-1 {
     width: 246px;
+    margin-bottom: 90px;
+    z-index: 22;
 }
 
 .round {
@@ -145,15 +190,17 @@
 }
 
 .group-4 {
+    position: relative;
+    overflow: hidden;
     background: url(../11Octpsd/img/Shape3.png)no-repeat center center/cover;
 }
 
 .group-4 h2 {
-    font-size: 62px;
     color: #ffffff;
     font-weight: 700;
     text-align: center;
-    padding: 15px;
+    padding: 50px;
+    font-size: 80px;
 }
 
 .group-4 p {
@@ -162,23 +209,25 @@
 }
 
 .round-1 {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border: 2px solid white;
-    padding-top: 25px;
+    padding-top: 35px;
 }
 
 .round-1 p {
-    font-size: 28px;
+    font-size: 45px;
 }
 
 .round-1 h2 {
     padding: 0px;
+    font-size: 62px;
 }
 
 .group-4 .circle {
-    padding-bottom: 100px;
+    margin-bottom: 60px;
+    padding: 0px 100px 100px;
 }
 
 .group-6 {
@@ -205,6 +254,7 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 100px;
+    position: relative;
 }
 
 .group-7 h2 {
@@ -221,6 +271,7 @@
     font-weight: 400;
     font-family: "Montserrat";
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .group-7 input {
@@ -231,4 +282,51 @@
     height: 38px;
     padding: 12px;
 
+}
+
+.group-7 button {
+    border-radius: 33px;
+    background-color: #21243d;
+    padding: 9px 54px;
+    color: white;
+    margin: 20px 0;
+    position: absolute;
+    top: 62%;
+    cursor: pointer;
+    right: 28%;
+
+}
+
+.group-8 {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding: 100px;
+}
+
+.group-8 ul li {
+    list-style: none;
+    padding-bottom: 12px;
+}
+
+.first {
+    width: 30%;
+}
+
+.first p {
+    line-height: 23px;
+    padding-bottom: 15px;
+}
+
+.first i {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.bb {
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 30px;
 }
