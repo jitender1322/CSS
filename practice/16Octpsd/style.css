@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#psd {
+    background-color: orange;
+    overflow: hidden;
+    position: relative;
+}
+
+.intro {
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    position: relative;
+}
+
+.intro h1 {
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.intro p {
+    padding: 0 100px;
+    margin: 30px;
+}
+
+.circle,
+.circle-1,
+.circle-2 {
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    border-radius: 50%;
+    background-color: skyblue;
+}
+
+.circle-1,
+.circle-2 {
+    position: absolute;
+}
+
+.circle-1 {
+    top: -60px;
+    left: -35px;
+}
+
+.circle-2 {
+    top: -60px;
+    right: -35px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 100px 0 0;
+    padding-bottom: 85px;
+}
+
+.box {
+    border: 2px solid black;
+    width: 33%;
+    margin: 0 80px;
+    border-radius: 12px;
+}
+
+.box h2 {
+    margin: 20px;
+}
+
+.box p {
+    margin: 5px 0 15px;
+    color: brown;
+}
+
+i {
+    position: absolute;
+    color: aqua;
+}
+
+.i-1 {
+    font-size: 65px;
+    top: 150px;
+    left: 100px;
+}
+
+.i-2 {
+    font-size: 65px;
+    top: 150px;
+    right: 100px;
+}
