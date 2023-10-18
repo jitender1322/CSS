@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.group-2 {
+    background: url(../11Octpsd/img/Shape.png)no-repeat center center/cover;
+    position: relative;
+    overflow: hidden;
+}
+
+img[class*="clip"] {
+    position: absolute;
+    width: 150px;
+}
+
+
+.clip-1 {
+    bottom: 50px;
+    right: -10px;
+    width: 90px !important;
+}
+
+.clip-2 {
+    top: -15px;
+    left: 115px;
+}
+
+.clip-3 {
+    top: -27px;
+    right: -30px;
+}
+
+.clip-4 {
+    top: 150px;
+    left: 40px;
+    width: 90px !important;
+}
+
+.clip-5 {
+    top: 50%;
+    right: -60px;
+    transform: rotate(90deg);
+}
+
+.clip-6 {
+    bottom: 50px;
+    left: -50px;
+}
+
+.group-2 h2 {
+    font-size: 64px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 12px;
+}
+
+.pp {
+    color: white;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.circle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 65px;
+    padding: 0 80px;
+
+}
+
+.c-1 {
+    width: 246px;
+    margin-bottom: 90px;
+    z-index: 22;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.c-1 h4 {
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.c-1 p {
+    font-size: 15px;
+    margin: 12px 0px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    .circle {
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+    }
+
+    .group-2 h2 {
+        font-size: 50px;
+        margin-top: 30px;
+    }
+
+    .group-2 p {
+        padding: 0 100px;
+        margin: 0 100px;
+    }
+
+    .c-1 h4 {
+        font-size: 28px;
+    }
+
+    .c-1 p {
+        font-size: 15px;
+        margin: 12px 0px;
+        padding: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    img[class*="clip"] {
+        width: 100px;
+    }
+
+    .clip-5 {
+        top: 50%;
+        right: -50px;
+        transform: rotate(90deg);
+    }
+
+    .group-2 p {
+        padding: 0 50px;
+        margin: 0 50px;
+    }
+
+    .c-1 p {
+        font-size: 15px;
+        margin: 12px 0px;
+        padding: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .group-2 p {
+        padding: 0;
+        margin: 0;
+    }
+}
