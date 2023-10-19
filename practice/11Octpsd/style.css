@@ -330,3 +330,104 @@ img[class*="clip"] {
     font-weight: 400;
     margin-bottom: 30px;
 }
+
+
+
+
+@media (max-width: 992px) {
+    .circle {
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+    }
+
+    .group-2 h2 {
+        font-size: 50px;
+        margin-top: 30px;
+    }
+
+    .group-2 p {
+        padding: 0 100px;
+        margin: 0 100px;
+    }
+
+    .c-1 h4 {
+        font-size: 28px;
+    }
+
+    .c-1 p {
+        font-size: 15px;
+        margin: 12px 0px;
+        padding: 0;
+    }
+
+    .group-7 button {
+        position: static;
+    }
+}
+
+@media (max-width: 768px) {
+    img[class*="clip"] {
+        width: 100px;
+    }
+
+    .clip-5 {
+        top: 50%;
+        right: -50px;
+        transform: rotate(90deg);
+    }
+
+    .group-2 p {
+        padding: 0 50px;
+        margin: 0 50px;
+    }
+
+    .c-1 p {
+        font-size: 15px;
+        margin: 12px 0px;
+        padding: 0;
+    }
+
+    .circle {
+        gap: 20px;
+    }
+
+    .group-6 p {
+        padding: 25px 0px;
+    }
+
+    .group-7 button {
+        position: static;
+    }
+
+    .nav ul {
+        display: none;
+    }
+
+    .nav {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 576px) {
+    .group-2 p {
+        padding: 0;
+        margin: 0;
+    }
+
+    .group-3 .main-text {
+        text-align: center;
+    }
+
+    .group-3 {
+        flex-direction: column-reverse;
+    }
+
+    .group-8 {
+        padding: 30px 15px;
+    }
+
+    .three {
+        flex-direction: column;
+    }
+}
