@@ -20,6 +20,10 @@
     display: flex;
 }
 
+.click {
+    display: none;
+}
+
 .nav ul li {
     list-style: none;
     font-size: 25px;
@@ -41,6 +45,7 @@
 
 .main-text {
     margin: 90px 90px 0;
+    padding-right: 100px;
 }
 
 .main-text h1 {
@@ -126,7 +131,7 @@ img[class*="clip"] {
     margin-top: 12px;
 }
 
-.circle {
+.group-2 .circle {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -195,6 +200,15 @@ img[class*="clip"] {
     background: url(../11Octpsd/img/Shape3.png)no-repeat center center/cover;
 }
 
+.group-4 .circle {
+    margin-bottom: 60px;
+    padding: 50px 100px 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
 .group-4 h2 {
     color: #ffffff;
     font-weight: 700;
@@ -225,10 +239,6 @@ img[class*="clip"] {
     font-size: 62px;
 }
 
-.group-4 .circle {
-    margin-bottom: 60px;
-    padding: 0px 100px 100px;
-}
 
 .group-6 {
     background: url(../11Octpsd/img/g-5.png)no-repeat center center/cover;
@@ -332,7 +342,11 @@ img[class*="clip"] {
 }
 
 
-
+@media (max-width:1200px) {
+    .group-7 input {
+        width: 51%;
+    }
+}
 
 @media (max-width: 992px) {
     .circle {
@@ -367,6 +381,32 @@ img[class*="clip"] {
 }
 
 @media (max-width: 768px) {
+    .main-text {
+        text-align: center;
+        margin: 30px auto 0;
+        padding: 0;
+    }
+
+    .group-1 .main-text h1 {
+        font-size: 85px;
+    }
+
+    .group-3 .main-text {
+        text-align: center;
+    }
+
+    .group-3 {
+        flex-direction: column-reverse;
+    }
+
+    .group-8 {
+        padding: 30px 15px;
+    }
+
+
+
+
+
     img[class*="clip"] {
         width: 100px;
     }
@@ -388,10 +428,6 @@ img[class*="clip"] {
         padding: 0;
     }
 
-    .circle {
-        gap: 20px;
-    }
-
     .group-6 p {
         padding: 25px 0px;
     }
@@ -404,15 +440,49 @@ img[class*="clip"] {
         display: none;
     }
 
+    .click {
+        display: block;
+        position: absolute;
+        right: 10%;
+    }
+
+    .click:checked+ul {
+        display: block;
+        position: absolute;
+        top: 14%;
+        right: 4%;
+        background-color: #21243d;
+    }
+
     .nav {
         justify-content: space-between;
+        padding: 8px 20px;
+    }
+
+    .nav ul li {
+        padding: 10px 18px;
+    }
+
+    .group-8 {
+        padding: 30px 15px;
     }
 }
+
 
 @media (max-width: 576px) {
     .group-2 p {
         padding: 0;
         margin: 0;
+    }
+
+    .main-text {
+        text-align: center;
+        margin: 30px auto 0;
+        padding: 0;
+    }
+
+    .group-1 .main-text h1 {
+        font-size: 85px;
     }
 
     .group-3 .main-text {
@@ -429,5 +499,9 @@ img[class*="clip"] {
 
     .three {
         flex-direction: column;
+    }
+
+    .group-7 input {
+        width: 100%;
     }
 }
