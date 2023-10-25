@@ -1,0 +1,12 @@
+ /*     selector{
+            property1: value1;
+            property2: value2;
+         } */
+
+ .External {
+     color: chocolate;
+ }
+
+ p {
+     color: rgb(245, 4, 229);
+ }

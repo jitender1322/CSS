@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline Block</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+
+        .box {
+            border: 5px solid red;
+            padding: 20px;
+            display: block;
+            display: inline;
+            display: inline-block;
+        }
+
+        h1 {
+
+            float: right;
+        }
+
+        .parent {
+            height: 500px;
+            background-color: tan;
+            display: flex;
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column; */
+            /* justify-content: center; */
+            /* justify-content: space-evenly; */
+            /* justify-content: space-around; */
+            /* justify-content: space-between; */
+            /* align-items: center; */
+            /* align-content: center; */
+            /* flex-wrap: wrap; */
+            gap: 50px;
+        }
+
+        div[class*="child"] {
+            width: 200px;
+            height: 200px;
+            background-color: crimson;
+            color: aliceblue;
+            font-size: 30px;
+        }
+
+        /* .child-1{
+            order: 1;
+        } */
+        .child-2 {
+            /* order: 1; */
+            /* flex-grow: 1; */
+            /* flex-shrink: 3; */
+            /* flex-basis: 10%; */
+            /* align-self: center; */
+        }
+
+        .child-3 {
+            /* align-self: flex-end; */
+        }
+    </style>
+</head>
+
+<body>
+    before
+    <div>Block</div>
+    after
+    <hr>
+    before
+    <span0>Inline</span0>
+    after
+    <hr>
+    <div class="parent">
+        <div class="box">Box-1</div>
+        <div class="box">Box-2</div>
+        <div class="box">Box-3</div>
+    </div>
+    <br><br><br><br><br>
+    <h1>Kabhi float use nhi Krege </h1>
+    <br><br><br><br><br>
+    <div class="parent">
+        <div class="child-1">Child One</div>
+        <div class="child-2">Child Two</div>
+        <div class="child-3">Child Three</div>
+        <!-- <div class="child-4">Child four</div> -->
+    </div>
+</body>
+
+</html>
