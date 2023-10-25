@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: aqua;
+        }
+
+        section {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        div[class*="box"] {
+            width: 400px;
+            height: 200px;
+            margin: 50px;
+        }
+
+        .box-1 {
+            background: linear-gradient(35deg, red, black, blue);
+        }
+
+        .box-2 {
+            background: radial-gradient(red, rgb(218, 49, 49), rgb(158, 158, 178));
+        }
+
+        .box-3 {
+            background: conic-gradient(red, black, blue);
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="box-1"></div>
+        <div class="box-2"></div>
+        <div class="box-3"></div>
+    </section>
+</body>
+
+</html>

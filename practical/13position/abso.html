@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Ab Rel</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: crimson;
+            color: aliceblue;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 50px;
+        }
+
+        .col-50 {
+            width: 50%;
+            position: relative;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        img[class*="offer"] {
+            width: 200px;
+            position: absolute;
+        }
+
+        .offer-1 {
+            top: -30px;
+            left: 0;
+        }
+
+        .offer-2 {
+            top: -30px;
+            left: 0;
+        }
+
+        .main-text {
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+
+        p {
+            font-size: 30px;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main-text">
+            <h1>Garba</h1>
+            <p>Chalo ne ramva jaie!</p>
+        </div>
+        <div class="row">
+            <div class="col-50">
+                <img src="../../Images/garba.jpg" alt="">
+                <img src="../../Images/offer.jpg" class="offer-1" alt="">
+            </div>
+            <div class="col-50">
+                <img src="../../Images/garba.jpg" alt="">
+                <img src="../../Images/offer.jpg" class="offer-2" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

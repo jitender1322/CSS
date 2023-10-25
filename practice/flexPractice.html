@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: aqua;
+        }
+
+        div[class*="con"] {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .con-2 {
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        div[class*="box"] {
+            width: 150px;
+            height: 150px;
+            background-color: brown;
+            margin: 30PX;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="con-1">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="con-2">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </section>
+
+</body>
+
+</html>
