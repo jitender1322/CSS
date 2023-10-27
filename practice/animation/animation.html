@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        section {
+            /* width: 700px; */
+            height: 100vh;
+            margin: 0 auto;
+            position: relative;
+            background: url(../animation/tree.png)no-repeat center center/cover;
+        }
+
+        img {
+            width: 250px;
+            animation-name: monkey;
+            animation-iteration-count: infinite;
+            animation-duration: .5s;
+            animation-direction: alternate;
+            position: absolute;
+            bottom: 0;
+            left: 55px;
+        }
+
+        .img2 {
+            left: 900px;
+        }
+
+        @keyframes monkey {
+            from {
+                bottom: 0px;
+            }
+
+            to {
+                bottom: 80px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <img src="../animation/monkey.webp" alt="">
+        <img class="img2" src="../animation/pngegg.png" alt="">
+    </section>
+</body>
+
+</html>
