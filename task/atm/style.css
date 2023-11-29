@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+}
+
+h2 {
+    text-shadow: 1px 2px 3px rgb(0, 0, 0);
+}
+
+p {
+    text-shadow: 1px 2px 3px rgb(0, 0, 0);
+}
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.atm {
+    margin: 0 auto;
+    color: white;
+}
+
+.atm img {
+    cursor: pointer;
+}
+
+.flip-1 {
+    width: 350px;
+    height: 220px;
+    background-image: linear-gradient(to right top, #d16ba5, #b662a5, #985ba2, #79549d, #584e95, #4e4f9a, #40509f, #2c51a4, #3759bb, #4561d2, #5669e8, #6970ff);
+    border-radius: 12px;
+    position: absolute;
+    top: 17%;
+    left: 33%;
+    z-index: 22;
+    padding: 100px 20px 0;
+    box-shadow: 13px 12px 25px 2px rgba(0, 0, 0, 0.75);
+}
+
+.flip-1 img {
+    width: 40px;
+}
+
+.flip-2 img {
+    position: absolute;
+    top: 32%;
+    left: 43%;
+    transition: .8s all;
+    width: 30%;
+}
+
+.flip-2 img:hover {
+    z-index: 333;
+    left: 55%;
+}
+
+.text {
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-between;
+}

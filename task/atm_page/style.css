@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #bfcee1;
+}
+
+#container {
+    height: 100vh;
+    width: 100%;
+    background: url(./img/bg.png);
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 40px;
+}
+
+.card {
+    width: 80%;
+    margin: 0px auto;
+    height: 500px;
+    border-radius: 20px;
+    background: url(./img/RECTANGLE.png)no-repeat center center/cover;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav ul li {
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.nav ul li:nth-child(1) a {
+    background-color: #096aed;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 12px;
+}
+
+.nav img {
+    height: 30px;
+}
+
+.atm {
+    width: 400px;
+    margin: 100px 30px;
+}
+
+.atm h2 {
+    color: #2a3384;
+    font-size: 30px;
+}
+
+.atm h2 span {
+    color: #096aed;
+}
+
+.atm p {
+    line-height: 25px;
+    font-size: 14px;
+    padding: 10px 100px 10px 0;
+    color: #bfcee1;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: white;
+    margin: 20px 0;
+}
+
+.btn-1 {
+    background-color: #096aed;
+    margin-right: 20px;
+}
+
+.btn-2 {
+    background-color: #bfcee1;
+}
+
+.atm img {
+    width: 400px;
+    position: absolute;
+}
+
+.c-1 {
+    bottom: 15%;
+    right: 20%;
+    z-index: 10;
+}
+
+.c-2 {
+    bottom: 20%;
+    right: 17%;
+}
